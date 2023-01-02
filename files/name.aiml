@@ -3,12 +3,12 @@
 	<!-- insert your AIML categories here -->
 	<category>
 	    <pattern>name of student is *</pattern>
-	    <template>I will remember the student is <set name="name"><star/></set></template>
+	    <template><think><set name="name"><star/></set></think>I will remember</template>
 	</category>
 	
 	<category>
 	    <pattern>
-	        Who is your student
+	        who is your student
 	    </pattern>
 	    <template> The student is <get name="name"/></template>
 	</category>

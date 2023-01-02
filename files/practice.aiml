@@ -2,6 +2,25 @@
 <aiml version="2.0">
 	<!-- insert your AIML categories here -->
 	<category>
+	    <pattern>I am a student</pattern>
+	    <template>what is more of interest data or coding</template>
+    </category>
+    <category>
+        <pattern>data</pattern>
+        <that>what is more of interest data or coding</that>
+        <template>data analysis via machine learning or AI is an emerging technology</template>
+    </category>
+    <category>
+        <pattern>coding</pattern>
+        <that>what is more of interest data or coding</that>
+        <template>writing code has equally broad range of options whether it be security, planning, or front end development and more</template>
+    </category>
+    <category>
+        <pattern>something else</pattern>
+        <that>what is more of interest data or coding</that>
+        <template>please enter data or coding, any other subject is out of my scope</template>
+    </category>
+	<category>
 	    <pattern>hi</pattern>
 	    <template>
 	        <random>
@@ -10,6 +29,10 @@
 	            <li>Welcome</li>
 	        </random>
 	    </template>
+    </category>
+    <category>
+        <pattern>Hola</pattern>
+        <template><srai>hi</srai></template>
     </category>
     <category>
         <pattern>What did you just say></pattern>
