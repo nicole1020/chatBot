@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
 	<!-- insert your AIML categories here -->
+	
 	<category>
 	    <pattern>I am a student</pattern>
 	    <template>what is more of interest data or coding</template>
@@ -26,7 +27,7 @@
     
     <category>
         <pattern>Cdataanalysis</pattern>
-        <template>Data analysis has it's unique career advancement method. We reccomend working in data research.</template>
+        <template>Data analysis has it's unique career advancement method. We reccomend working as a data researcher.</template>
     </category>
     <category>
         <pattern>Cmachinelearning</pattern>
@@ -34,7 +35,7 @@
     </category>
     <category>
         <pattern>Cai</pattern>
-        <template>Robotics and AI go hand in hand. If youre interested in AI, robotics is a good fit for emerging technology and your skillset and interests.</template>
+        <template>Robotics and AI go hand in hand. If youre interested in AI, robotics engineer is a good fit for emerging technology and your skillset and interests.</template>
     </category>
     <category>
         <pattern>coding</pattern>
@@ -75,8 +76,8 @@
 	    <pattern>hi</pattern>
 	    <template>
 	        <random>
-	            <li>Hola Amigo</li>
-	            <li>Buenos Dias</li>
+	            <li>Hola</li>
+	            <li>Hello</li>
 	            <li>Welcome</li>
 	        </random>
 	    </template>

@@ -2,6 +2,33 @@
 <aiml version="2.0">
 	<!-- insert your AIML categories here -->
 	<category>
+	    <pattern>Are you a student?</pattern>
+	    <template>
+	        <reply>
+	            <text>Yes</text>
+	            <postback>Cyes</postback>
+            </reply>
+            <reply>
+                <text>No</text>
+                <postback>Cno</postback>
+            </reply>
+	    </template>
+    </category>
+    <category>
+        <pattern>Cyes</pattern>
+        <template>What is your name? Please enter in format "my name is __"</template>
+    </category>
+    <category>
+        <pattern>Cno</pattern>
+        <template>If you would like more information about continuing education here is a link to the website
+        
+        <button>
+            <text>WGU Home Page</text>
+            <url>https://www.wgu.edu/</url>
+        </button>
+        </template>
+    </category>
+	<category>
 	    <pattern>name of student is *</pattern>
 	    <template><think><set name="name"><star/></set></think>I will remember</template>
 	</category>
