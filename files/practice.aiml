@@ -8,15 +8,66 @@
     <category>
         <pattern>data</pattern>
         <that>what is more of interest data or coding</that>
-        <template>data analysis via machine learning or AI is an emerging technology</template>
+        <template>what is more of interest? Data analysis via machine learning or AI is an emerging technology.
+        <reply>
+            <text>Data analysis</text>
+            <postback>Cdataanalysis</postback>
+        </reply>
+        <reply>
+            <text>Machine learning</text>
+            <postback>Cmachinelearning</postback>
+        </reply>
+        <reply>
+            <text>AI</text>
+            <postback>Cai</postback>
+        </reply>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>Cdataanalysis</pattern>
+        <template>Data analysis has it's unique career advancement method. We reccomend working in data research.</template>
+    </category>
+    <category>
+        <pattern>Cmachinelearning</pattern>
+        <template>Machine learning is unique in which coding can manipulate data automatically by integrated coding languages like Python. If your interested in Python development finding a career in machine learning would be a great fit.</template>
+    </category>
+    <category>
+        <pattern>Cai</pattern>
+        <template>Robotics and AI go hand in hand. If youre interested in AI, robotics is a good fit for emerging technology and your skillset and interests.</template>
     </category>
     <category>
         <pattern>coding</pattern>
         <that>what is more of interest data or coding</that>
-        <template>writing code has equally broad range of options whether it be security, planning, or front end development and more</template>
+        <template>writing code has equally broad range of options whether it be security, planning, or front end development.
+        <reply>
+            <text>Security</text>
+            <postback>Csecurity</postback>
+        </reply>
+        <reply>
+            <text>Planning</text>
+            <postback>Cplanning</postback>
+        </reply>
+        <reply>
+            <text>Front End</text>
+            <postback>Cfrontend</postback>
+        </reply>
+        </template>
+            <category>
+                <pattern>Csecurity</pattern>
+                <template>If you're interested in security, we reccomend finding a career in cloud security. It is a growing field and there are many opportunities out there.</template>
+            </category>
+            <category>
+                <pattern>Cplanning</pattern>
+                <template>If you're interested in planning, IT project management or program management is for you. It requires strong communication and organization to excel and there it is a growing field.</template>
+            </category>
+            <category>
+                <pattern>Cfrontend</pattern>
+                <template>If you're interested in front end development, web applications careers is for you. This is a field that has many opportunities for growth.</template>
+            </category>
     </category>
     <category>
-        <pattern>something else</pattern>
+        <pattern>*</pattern>
         <that>what is more of interest data or coding</that>
         <template>please enter data or coding, any other subject is out of my scope</template>
     </category>
