@@ -53,6 +53,7 @@
             <postback>Cfrontend</postback>
         </reply>
         </template>
+        </category>
         <category>
             <pattern>Csecurity</pattern>
             <template>If you're interested in security, we reccomend finding a career in cloud security. It is a growing field and there are many opportunities out there.</template>
@@ -65,7 +66,6 @@
             <pattern>Cfrontend</pattern>
             <template>If you're interested in front end development, web applications careers is for you. This is a field that has many opportunities for growth.</template>
         </category>
-    </category>
     <category>
         <pattern>*</pattern>
         <that>what is more of interest data or coding</that>
