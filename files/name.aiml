@@ -28,15 +28,6 @@
         </button>
         </template>
     </category>
-	<category>
-	    <pattern>name of student is *</pattern>
-	    <template><think><set name="name"><star/></set></think>I will remember</template>
-	</category>
-	
-	<category>
-	    <pattern>
-	        who is your student
-	    </pattern>
-	    <template> The student is <get name="name"/></template>
-	</category>
+
+
 </aiml>

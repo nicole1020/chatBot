@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
 	<!-- insert your AIML categories here -->
+		<category>
+	    <pattern>my name is *</pattern>
+	    <template><think><set name="name"><star/></set></think>I will remember</template>
+	</category>
 	
 	<category>
-	    <pattern>I am a student</pattern>
+	    <pattern>
+	        who is your student
+	    </pattern>
+	    <template> The student is <get name="name"/></template>
+	    </category>
+	<category>
+	    <pattern>I am inquiring about career advice</pattern>
+	    
 	    <template>what is more of interest data or coding</template>
-    </category>
+   </category>
     <category>
         <pattern>data</pattern>
         <that>what is more of interest data or coding</that>
@@ -24,7 +35,6 @@
         </reply>
         </template>
     </category>
-    
     <category>
         <pattern>Cdataanalysis</pattern>
         <template>Data analysis has it's unique career advancement method. We reccomend working as a data researcher.</template>
@@ -37,6 +47,7 @@
         <pattern>Cai</pattern>
         <template>Robotics and AI go hand in hand. If youre interested in AI, robotics engineer is a good fit for emerging technology and your skillset and interests.</template>
     </category>
+    
     <category>
         <pattern>coding</pattern>
         <that>what is more of interest data or coding</that>
